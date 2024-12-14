@@ -10,8 +10,8 @@ def draw():
     g = 0
     b = randint(120, 255)
 
-    width = WIDTH
-    height = HEIGHT - 200
+    width = 100
+    height = 100 
 
     for i in range(20):
         rect = Rect((0, 0), (width, height))
@@ -22,7 +22,7 @@ def draw():
         g += 10
 
         width -= 10
-        height += 10
+        height -= 10
 
 
 pgzrun.go()
